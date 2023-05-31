@@ -10,7 +10,7 @@
     - Email: endereço de e-mail do usuário
     - Telefone: número de telefone do usuário
     - CPF: número de CPF do usuário
-   - Endereco_ID: Endereço do usuário (estado, cidade, rua, número, ponto de referência)
+    - Endereco_ID: Endereço do usuário (estado, cidade, rua, número, ponto de referência)
 
 2. Tabela "Bandas":
     - ID: identificador único da banda (chave primária)
@@ -42,11 +42,11 @@
 
 ### Funcionamento
 
-- Quando Luiz se cadastra na plataforma, seus dados são armazenados na tabela "Usuários" e 
+- Quando o usuário se cadastra na plataforma, seus dados são armazenados na tabela "Usuários" e 
 seu endereço na tabela "Endereco".
 - As bandas cadastradas na plataforma são armazenadas na tabela "Bandas".
 - Quando uma banda adiciona um evento em sua agenda, um registro é inserido na tabela "Agenda" com o ID da banda, a data e os horários do evento.
-- Quando Luiz busca por uma data disponível, o sistema verifica na tabela "Agenda" quais bandas estão disponíveis nessa data e horário.
+- Quando o usuário busca por uma data disponível, o sistema verifica na tabela "Agenda" quais bandas estão disponíveis nessa data e horário.
 - Ao escolher a banda e a data do evento, Luiz pode fazer a contratação. Os detalhes do evento são então armazenados na tabela "Eventos" e
   o endereço  do evento na tabela "Endereco".
 
