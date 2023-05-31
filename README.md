@@ -1,7 +1,7 @@
 # AgendaDeEventos
 ### Modelagem de dados:
 
-![diagrama-de-classes](https://github.com/viccttor/PeopleManegemant/blob/main/resources/diagrama-de-classes.png)
+![diagrama-de-classes](https://github.com/uluizeduardo/AgendaDeEventos/blob/FEATURE/CREAT-0002/resources/diagrama-de-classes.png)
 
 ### Tabelas
 1. Tabela "Usuários":
